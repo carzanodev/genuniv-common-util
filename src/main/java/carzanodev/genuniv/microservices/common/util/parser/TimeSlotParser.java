@@ -5,8 +5,12 @@ import java.time.LocalTime;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import carzanodev.genuniv.microservices.common.util.string.CommonConstant;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class TimeSlotParser {
 
     public static String HOUR_TO_MIN_DELIMETER = ":";
